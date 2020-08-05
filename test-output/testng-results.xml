@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-31T10:41:32Z" name="Default suite" finished-at="2020-07-31T10:43:41Z" duration-ms="129472">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testCases.TestFlow@41ab013]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-07-31T10:41:32Z" name="Default test" finished-at="2020-07-31T10:43:41Z" duration-ms="129472">
+      <class name="com.testCases.TestFlow">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:41:31Z" name="startReport" finished-at="2020-07-31T10:41:32Z" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:41:32Z" name="setData" finished-at="2020-07-31T10:41:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:41:32Z" name="setUpClass" finished-at="2020-07-31T10:41:32Z" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="report()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:41:32Z" name="report" finished-at="2020-07-31T10:41:32Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:41:32Z" name="beforeMethod" finished-at="2020-07-31T10:43:01Z" duration-ms="88872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_001_AppleLaptopFunctionality()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:43:01Z" name="TC_001_AppleLaptopFunctionality" finished-at="2020-07-31T10:43:08Z" duration-ms="6886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_AppleLaptopFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:43:08Z" name="afterMethod" finished-at="2020-07-31T10:43:15Z" duration-ms="7282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:43:15Z" name="beforeMethod" finished-at="2020-07-31T10:43:29Z" duration-ms="13722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_002_AppleLaptopFunctionality()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:43:29Z" name="TC_002_AppleLaptopFunctionality" finished-at="2020-07-31T10:43:38Z" duration-ms="8665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_AppleLaptopFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:43:38Z" name="afterMethod" finished-at="2020-07-31T10:43:41Z" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:43:41Z" name="tearDownClass" finished-at="2020-07-31T10:43:41Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:com.testCases.TestFlow@41ab013]" started-at="2020-07-31T10:43:41Z" name="stopReport" finished-at="2020-07-31T10:43:42Z" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.testCases.TestFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
