@@ -2,7 +2,7 @@ package com.qa.ApplicationSpecifics;
 import java.io.IOException;
 import java.util.Random;
 
-// Test- repo checkin 
+// Test- repo checkin sign out
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
