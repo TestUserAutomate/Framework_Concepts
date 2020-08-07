@@ -1,10 +1,10 @@
-package com.qa.tooltip;
+package com.qa.tooltip.Tv_Appliances;
 
 import org.openqa.selenium.By;
 
 import com.amazon.selenium.base.SeleniumBase;
 import com.aventstack.extentreports.Status;
-import com.qa.pages.MobilesAndLaptops.MobilesAndComputersPage;
+import com.qa.tooltip.mobiles_computers.MobilesAndComputersPage;
 
 public class ToolTipPage extends SeleniumBase {
 	
@@ -16,12 +16,16 @@ public class ToolTipPage extends SeleniumBase {
 		return new MobilesAndComputersPage();
 		
 	}
-	public TvAppliancesElectronicsPage clickTv_Appliances_Electronics() {
+	public TV_AppliancesPage clickTv_Appliances_Electronics() {
 		click(locateElement("xpath","//div[contains(text(),'TV, Appliances')]"));
 		test.log(Status.INFO,"Tv Appliances and Electronics  has been clicked successfully");
-		return new TvAppliancesElectronicsPage();
+		return new TV_AppliancesPage();
 		
 	}
+
+	
+	
+	
 
 
 }

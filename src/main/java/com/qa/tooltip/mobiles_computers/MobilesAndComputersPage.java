@@ -1,4 +1,4 @@
-package com.qa.pages.MobilesAndLaptops;
+package com.qa.tooltip.mobiles_computers;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

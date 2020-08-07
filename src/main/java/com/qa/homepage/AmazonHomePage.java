@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 
 import com.aventstack.extentreports.Status;
 import com.qa.ApplicationSpecifics.ProjectSpecificMethods;
-import com.qa.tooltip.ToolTipPage;
+import com.qa.tooltip.Tv_Appliances.ToolTipPage;
 
 public class AmazonHomePage extends ProjectSpecificMethods{
 	

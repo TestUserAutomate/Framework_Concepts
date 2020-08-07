@@ -48,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Aug 7, 2020 09:39:28 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 7, 2020 03:48:45 PM</span>
 				</a>
 			</li>
 			<li>
@@ -73,7 +73,8 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li class='divider'></li>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
 			</div>
@@ -85,7 +86,7 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>sanity</a></li>
+					<li><a href='#'>Smoke</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -133,14 +134,28 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='91.667%'><span class='strong'>22</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='8.333%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
 		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='71.429%'><span class='strong'>5</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='28.571%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
 		
 	</div>
 </div>
@@ -173,6 +188,1111 @@
 				<span class='author label white-text'>Nithin</span>
 			</div>
 	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 12:40:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 12:40:25 PM</span>
+	<span class='label end-time'>Aug 7, 2020 12:40:34 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>sanity</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:40:56 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:40:56 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:40:59 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='3'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+49ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 12:44:12 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 12:44:12 PM</span>
+	<span class='label end-time'>Aug 7, 2020 12:45:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 9s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>sanity</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:44:31 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:44:35 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:44:40 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:45:02 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:45:04 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:45:07 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:45:43 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:45:43 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:45:46 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='5'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+66ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='6'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+67ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='7'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+69ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 12:52:14 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 12:52:14 PM</span>
+	<span class='label end-time'>Aug 7, 2020 12:52:32 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 18s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Smoke</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:52:33 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:52:34 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:52:36 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='9'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+75ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 01:00:38 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 01:00:38 PM</span>
+	<span class='label end-time'>Aug 7, 2020 01:02:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 41s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Smoke</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:01:08 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:01:09 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:01:14 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:01:52 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:01:52 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:01:57 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:02:40 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:02:41 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:02:46 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='11'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+84ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='12'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+86ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='13'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+87ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='14'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 01:12:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 01:12:32 PM</span>
+	<span class='label end-time'>Aug 7, 2020 01:14:07 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 35s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>sanity</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:13:03 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:13:03 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:13:06 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:13:46 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:13:46 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:13:49 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:14:29 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:14:29 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:14:29 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='15'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+97ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='16'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+98ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='17'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+99ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='18'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 01:54:33 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 01:54:33 PM</span>
+	<span class='label end-time'>Aug 7, 2020 01:56:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 48s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>sanity</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:55:14 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:55:14 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:55:14 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:55:44 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:55:48 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:55:53 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:56:22 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:56:23 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:56:25 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='19'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+109ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='20'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+110ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='21'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+111ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='22'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 01:56:29 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 01:56:29 PM</span>
+	<span class='label end-time'>Aug 7, 2020 01:57:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 21s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Smoke</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:56:48 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:56:50 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:56:52 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:57:18 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:57:21 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:57:29 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:57:50 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:57:52 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:57:53 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='23'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+117ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='24'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+118ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='25'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+119ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='26'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 02:23:31 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 02:23:31 PM</span>
+	<span class='label end-time'>Aug 7, 2020 02:24:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 54s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>sanity</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:23:59 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:24:01 PM</td>
+					<td class='step-details'>Mobiles and computers has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:24:05 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for laptops</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf fail' status='fail' test-id='27'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+126ms</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>2:24:25 PM</td>
+													<td class='step-details'>The Browser Could not be Launched. Hence Failed<img data-featherlight="./../reports/images/749135418.jpg" width="10%" src="./../reports/images/749135418.jpg" data-src="./../reports/images/749135418.jpg"></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='28'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 02:48:45 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 02:48:45 PM</span>
+	<span class='label end-time'>Aug 7, 2020 02:49:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 12s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Smoke</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:49:20 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:49:25 PM</td>
+					<td class='step-details'>Tv Appliances and Electronics has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:49:26 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf fail' status='fail' test-id='29'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 53m 29s+135ms</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>2:49:25 PM</td>
+													<td class='step-details'>The Element TV, Appliances, Electronics clicked<img data-featherlight="./../reports/images/416223761.jpg" width="10%" src="./../reports/images/416223761.jpg" data-src="./../reports/images/416223761.jpg"></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>2:49:57 PM</td>
+													<td class='step-details'>The Element with locator:xpath Not Found with value: (//a[contains(text(),'Samsung')])[11]<img data-featherlight="./../reports/images/202184423.jpg" width="10%" src="./../reports/images/202184423.jpg" data-src="./../reports/images/202184423.jpg"></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='30'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 02:55:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 02:55:17 PM</span>
+	<span class='label end-time'>Aug 7, 2020 02:56:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 33s+0ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Smoke</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:55:48 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:55:49 PM</td>
+					<td class='step-details'>Tv Appliances and Electronics has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:55:55 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:56:49 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:56:50 PM</td>
+					<td class='step-details'>Tv Appliances and Electronics has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>2:56:56 PM</td>
+					<td class='step-details'>Laptops Successfully clicked and it moving to the page designated for Mobiles</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='31'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 52m 57s+148ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>2:55:49 PM</td>
+													<td class='step-details'>The Element TV, Appliances, Electronics clicked<img data-featherlight="./../reports/images/901125246.jpg" width="10%" src="./../reports/images/901125246.jpg" data-src="./../reports/images/901125246.jpg"></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='32'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:48:46 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 51m 56s+150ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>2:56:50 PM</td>
+													<td class='step-details'>The Element TV, Appliances, Electronics clicked<img data-featherlight="./../reports/images/63015976.jpg" width="10%" src="./../reports/images/63015976.jpg" data-src="./../reports/images/63015976.jpg"></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='33'>
+					<div class='test-heading'>
+						<span class='test-name'>CertTesing</span>
+						<span class='test-time'>Aug 7, 2020 03:48:46 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 7, 2020 03:48:46 PM</span>
+	<span class='label end-time'>Aug 7, 2020 03:49:41 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 54s+691ms</span>
+</div>
+	<div class='test-desc'>QA testing for Amazon site </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Smoke</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Nithin</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>3:49:00 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>3:49:01 PM</td>
+					<td class='step-details'>Tv Appliances and Electronics  has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>3:49:06 PM</td>
+					<td class='step-details'>Laptops Successfully clicked  and it moving to the page designated for Mobiles</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>3:49:40 PM</td>
+					<td class='step-details'>tool tip has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>3:49:41 PM</td>
+					<td class='step-details'>Tv Appliances and Electronics  has been clicked successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>3:49:46 PM</td>
+					<td class='step-details'>Laptops Successfully clicked  and it moving to the page designated for Mobiles</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='34'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:49:01 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 3s+851ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>3:49:01 PM</td>
+													<td class='step-details'>The Element TV, Appliances, Electronics clicked<img data-featherlight='./../reports/images/434433331.jpg' width='10%' src='./../reports/images/434433331.jpg' data-src='./../reports/images/434433331.jpg'></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='35'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>CertTesing</h5>
+						<span class="node-time label grey lighten-1 white-text">Aug 7, 2020 03:49:41 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 4s+231ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>3:49:41 PM</td>
+													<td class='step-details'>The Element TV, Appliances, Electronics clicked<img data-featherlight='./../reports/images/796718274.jpg' width='10%' src='./../reports/images/796718274.jpg' data-src='./../reports/images/796718274.jpg'></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
 					</div>
 				</li>
 			</ul>
@@ -227,7 +1347,7 @@
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>sanity</span>
+						<span class='category-name'>Smoke</span>
 						<span class='category-status right'>
 							<span class='label pass'>1</span>
 						</span>
@@ -250,8 +1370,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 7, 2020 09:39:29 AM</td>
-										<td class='linked' test-id='1'>CertTesing</td>
+										<td>Aug 7, 2020 03:48:46 PM</td>
+										<td class='linked' test-id='33'>CertTesing</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -320,8 +1440,8 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Aug 7, 2020 09:39:29 AM</td>
-                                                <td class='linked' test-id='1'>CertTesing</td>
+                                                <td>Aug 7, 2020 03:48:46 PM</td>
+                                                <td class='linked' test-id='33'>CertTesing</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                         </tbody>
@@ -349,31 +1469,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>24</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>0</div>
+					<div class='panel-lead'>7</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 7, 2020 09:39:28 AM</div>
+					<div class='panel-lead'>Aug 7, 2020 03:48:45 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 7, 2020 09:39:37 AM</div>
+			 		<div class='panel-lead'>Aug 7, 2020 03:50:03 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 8s+511ms</div>
+					<div class='panel-lead'>0h 1m 17s+518ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -389,7 +1509,7 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>sanity</td>
+							<td>Smoke</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -410,22 +1530,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 0,
+				passParent: 22,
+				failParent: 2,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 2,
 				
-				passChild: 0,
-				failChild: 0,
+				passChild: 5,
+				failChild: 2,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 2,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

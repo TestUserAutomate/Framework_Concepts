@@ -3,20 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testCases.TestFlow">
+      <class name="com.testCases.TelevisionTC">
         <methods>
           <include name="stopReport"/>
-          <include name="TC_001_AppleLaptopFunctionality"/>
-          <include name="setData"/>
           <include name="afterMethod"/>
           <include name="setUpClass"/>
           <include name="report"/>
-          <include name="TC_002_AppleLaptopFunctionality"/>
           <include name="startReport"/>
+          <include name="setData"/>
           <include name="beforeMethod"/>
           <include name="tearDownClass"/>
+          <include name="TC_001_Televisionfunctionality"/>
         </methods>
-      </class> <!-- com.testCases.TestFlow -->
+      </class> <!-- com.testCases.TelevisionTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
