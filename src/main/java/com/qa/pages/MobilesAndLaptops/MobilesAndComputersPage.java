@@ -16,9 +16,7 @@ public class MobilesAndComputersPage extends SeleniumBase {
 		test.log(Status.INFO,"Laptops Successfully clicked  and it moving to the page designated for laptops");
 		return new LaptopsPage();
 	}
-	
-	
-	
+
 	public MobilesPage clickMobiles() {
 		WebElement ele1 = driver.findElement(By.xpath("//*[contains(text(),'Mobile Phone')]"));
 		JavascriptExecutor executor = (JavascriptExecutor)driver;

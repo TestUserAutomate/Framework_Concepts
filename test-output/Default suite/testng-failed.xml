@@ -3,11 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.concepts.Login_Guru_DataProviderConcept">
+      <class name="com.testCases.TestFlow">
         <methods>
-          <include name="login" invocation-numbers="2"/>
+          <include name="stopReport"/>
+          <include name="TC_001_AppleLaptopFunctionality"/>
+          <include name="setData"/>
+          <include name="afterMethod"/>
+          <include name="setUpClass"/>
+          <include name="report"/>
+          <include name="TC_002_AppleLaptopFunctionality"/>
+          <include name="startReport"/>
+          <include name="beforeMethod"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.test.concepts.Login_Guru_DataProviderConcept -->
+      </class> <!-- com.testCases.TestFlow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

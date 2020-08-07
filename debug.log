@@ -1,7 +1,15 @@
 [0325/125015.980:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [0325/125015.981:ERROR:exception_snapshot_win.cc(98)] thread ID 7112 not found in process
 [0325/125015.981:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+<<<<<<< HEAD
 [0731/130207.327:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir14032_8779388\Crashpad: The system cannot find the file specified. (0x2)
 [0731/130226.007:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir6220_1808661934\Crashpad: The system cannot find the file specified. (0x2)
 [0731/131113.056:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir5096_1313756006\Crashpad: The system cannot find the file specified. (0x2)
 [0731/161338.800:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir4028_96757845\Crashpad: The system cannot find the file specified. (0x2)
+=======
+>>>>>>> d609dfd1a34f36e52548cbd4859397fca6285892
+[0807/092009.081:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir4916_1978649105\Crashpad: The system cannot find the file specified. (0x2)
+[0807/092026.938:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir16312_1014549530\Crashpad: The system cannot find the file specified. (0x2)
+[0807/092612.564:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir1472_796102204\Crashpad: The system cannot find the file specified. (0x2)
+[0807/092658.346:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir12108_20022813\Crashpad: The system cannot find the file specified. (0x2)
+[0807/092707.498:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir13844_1704558732\Crashpad: The system cannot find the file specified. (0x2)

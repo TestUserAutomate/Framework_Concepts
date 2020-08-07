@@ -32,7 +32,7 @@ public static void startTest()
 @Test
 public void extentReportsDemo() throws IOException
 {
-	System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","./Chromedriver_84/chromedriver.exe");
     driver = new ChromeDriver();
 	driver.manage().window().maximize(); 
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); 
@@ -57,7 +57,7 @@ else
 @Test
 public void extentReportsDemo_TC002() throws IOException
 {
-	System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","./Chromedriver_84/chromedriver.exe");
     driver = new ChromeDriver();
 	driver.manage().window().maximize(); 
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); 
