@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 import com.qa.ApplicationSpecifics.ProjectSpecificMethods;
-import com.qa.pages.AmazonHomePage;
+import com.qa.homepage.AmazonHomePage;
 
 public class MobileFlow extends ProjectSpecificMethods{
 

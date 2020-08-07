@@ -1,4 +1,4 @@
-package com.qa.pages;
+package com.qa.tooltip;
 
 import org.openqa.selenium.By;
 

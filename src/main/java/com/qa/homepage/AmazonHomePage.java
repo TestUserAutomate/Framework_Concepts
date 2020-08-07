@@ -1,4 +1,4 @@
- package com.qa.pages;
+ package com.qa.homepage;
 
 import java.io.IOException;
 
@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 
 import com.aventstack.extentreports.Status;
 import com.qa.ApplicationSpecifics.ProjectSpecificMethods;
+import com.qa.tooltip.ToolTipPage;
 
 public class AmazonHomePage extends ProjectSpecificMethods{
 	
