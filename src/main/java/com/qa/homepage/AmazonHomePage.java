@@ -6,7 +6,9 @@ import org.openqa.selenium.By;
 
 import com.aventstack.extentreports.Status;
 import com.qa.ApplicationSpecifics.ProjectSpecificMethods;
+import com.qa.dropdown.DropDownItems;
 import com.qa.tooltip.Tv_Appliances.ToolTipPage;
+import com.testCases.dropDownTest;
 
 public class AmazonHomePage extends ProjectSpecificMethods{
 	
@@ -17,4 +19,7 @@ public class AmazonHomePage extends ProjectSpecificMethods{
 		return new ToolTipPage();
 	}
 
+	public DropDownItems dropDownClick() {
+		return new DropDownItems();
+	}
 }
