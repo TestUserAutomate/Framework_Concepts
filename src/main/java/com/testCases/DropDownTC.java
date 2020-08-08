@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.qa.ApplicationSpecifics.ProjectSpecificMethods;
 import com.qa.homepage.AmazonHomePage;
 
-public class dropDownTest extends ProjectSpecificMethods {
+public class DropDownTC extends ProjectSpecificMethods {
 	
 	@BeforeTest
 	public void setData() {

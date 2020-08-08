@@ -8,7 +8,7 @@ import com.aventstack.extentreports.Status;
 import com.qa.ApplicationSpecifics.ProjectSpecificMethods;
 import com.qa.dropdown.DropDownItems;
 import com.qa.tooltip.Tv_Appliances.ToolTipPage;
-import com.testCases.dropDownTest;
+import com.testCases.DropDownTC;
 
 public class AmazonHomePage extends ProjectSpecificMethods{
 	
