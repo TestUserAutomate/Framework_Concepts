@@ -10,13 +10,6 @@ import com.qa.homepage.AmazonHomePage;
 
 public class LaptopTC extends ProjectSpecificMethods {
 	
-	@BeforeTest
-	public void setData() {
-		excelFileName="testFile";
-		testcaseName="CertTesing";
-		  testcaseDec = "QA testing for Amazon site"; author="Nithin";
-		  category="sanity";
-	}
 	
 	@Test
 	public void  TC_001_AppleLaptopFunctionality () throws IOException{

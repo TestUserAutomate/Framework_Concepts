@@ -3,19 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testCases.TelevisionTC">
+      <class name="com.testCases.dropDownTest">
         <methods>
-          <include name="stopReport"/>
           <include name="afterMethod"/>
-          <include name="setUpClass"/>
-          <include name="report"/>
-          <include name="startReport"/>
-          <include name="setData"/>
+          <include name="dropDownDealsTest"/>
+          <include name="dropDownElectronicsTest"/>
+          <include name="dropDownkindleStoreTest"/>
+          <include name="dropDownWatchesTest"/>
           <include name="beforeMethod"/>
-          <include name="tearDownClass"/>
-          <include name="TC_001_Televisionfunctionality"/>
+          <include name="dropDownApplianceTest"/>
         </methods>
-      </class> <!-- com.testCases.TelevisionTC -->
+      </class> <!-- com.testCases.dropDownTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

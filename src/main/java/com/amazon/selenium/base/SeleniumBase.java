@@ -31,13 +31,20 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.amazon.selenium.design.Browser;
 
 import com.amazon.selenium.design.Element;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-import utils.Reporter;
 
-public class SeleniumBase extends Reporter implements Browser,Element{
+public class SeleniumBase implements Browser,Element{
 	
 	public static RemoteWebDriver driver;
 	public static WebDriverWait wait;
+	
+	public ExtentHtmlReporter htmlReporter; //for look and feel of the report
+	public ExtentTest test; //to update the status in the report- pass/fail/skip & infos
+	public ExtentReports extent; //create entries in report for every TC
+	
 	int i=1;
 	@Override
 	public void click(WebElement ele) {
@@ -47,9 +54,9 @@ public class SeleniumBase extends Reporter implements Browser,Element{
 			wait.until(ExpectedConditions.elementToBeClickable(ele));
 			text = ele.getText();
 			ele.click();
-			reportStep("The Element "+text+" clicked", "pass"); 
+			
 		} catch (StaleElementReferenceException e) {
-			reportStep("The Element "+text+" could not be clicked", "fail");
+		
 			throw new RuntimeException();
 		} 
 	}
@@ -58,9 +65,9 @@ public class SeleniumBase extends Reporter implements Browser,Element{
 			wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.elementToBeClickable(ele));
 			ele.click();
-			reportStep("The Element "+ele+" clicked", "pass");
+		
 		} catch (StaleElementReferenceException e) {
-			reportStep("The Element "+ele+" could not be clicked", "fail");
+			
 			throw new RuntimeException();
 		}catch(Exception e) {
 			System.err.println(e);
@@ -77,9 +84,9 @@ public class SeleniumBase extends Reporter implements Browser,Element{
 	public void clear(WebElement ele) {
 		try {
 			ele.clear();
-			reportStep("The field is cleared Successfully", "pass");
+		
 		} catch (ElementNotInteractableException e) {
-			reportStep("The field is not Interactable", "fail");
+			
 			throw new RuntimeException();
 		}
 	}
@@ -89,9 +96,9 @@ public class SeleniumBase extends Reporter implements Browser,Element{
 		try {
 			ele.clear();
 			ele.sendKeys(data);
-			reportStep("The Data :"+data+" entered Successfully", "pass");
+			
 		} catch (ElementNotInteractableException e) {
-			reportStep("The Element "+ele+" is not Interactable", "fail");
+		
 			throw new RuntimeException();
 		}
 
@@ -275,7 +282,7 @@ public class SeleniumBase extends Reporter implements Browser,Element{
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		} catch (Exception e) {
-			reportStep("The Browser Could not be Launched. Hence Failed", "fail");
+			
 			throw new RuntimeException();
 		} finally {
 //			takeSnap();
@@ -294,10 +301,10 @@ public class SeleniumBase extends Reporter implements Browser,Element{
 			case "xpath": return driver.findElementByXPath(value);
 			}
 		} catch (NoSuchElementException e) {
-			reportStep("The Element with locator:"+locatorType+" Not Found with value: "+value, "fail");
+		
 			throw new RuntimeException();
 		}catch (Exception e) {
-			reportStep("The Element with locator:"+locatorType+" Not Found with value: "+value, "fail");
+			
 		}
 		return null;
 	}
@@ -339,9 +346,9 @@ public class SeleniumBase extends Reporter implements Browser,Element{
 			Alert alert = driver.switchTo().alert();
 			text = alert.getText();
 			alert.accept();
-			reportStep("The alert "+text+" is accepted.", "pass");
+		
 		} catch (NoAlertPresentException e) {
-			reportStep("There is no alert present.", "fail");
+		
 		} catch (WebDriverException e) {
 			System.out.println("WebDriverException : "+e.getMessage());
 		}  

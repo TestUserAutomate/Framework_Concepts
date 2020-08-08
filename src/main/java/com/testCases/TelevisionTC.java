@@ -10,14 +10,7 @@ import com.qa.homepage.AmazonHomePage;
 
 public class TelevisionTC extends ProjectSpecificMethods{
 	
-	@BeforeTest
-	public void setData() {
-		excelFileName="testFile";
-		testcaseName="CertTesing";
-		testcaseDec = "QA testing for Amazon site"; author="Nithin";
-		category="Smoke";
-	}
-
+	
 
 
 

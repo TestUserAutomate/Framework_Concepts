@@ -72,6 +72,13 @@
 			<artifactId>cucumber-java8</artifactId>
 			<version>4.2.2</version>
 		</dependency>
+		
+	<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>

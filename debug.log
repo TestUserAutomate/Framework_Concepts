@@ -23,3 +23,4 @@
 [0807/142406.317:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir8032_1145723416\Crashpad: The system cannot find the file specified. (0x2)
 [0807/145710.790:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir1304_938089731\Crashpad: The system cannot find the file specified. (0x2)
 [0807/155000.134:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\NITHIN~1.DEV\AppData\Local\Temp\scoped_dir18180_1960365825\Crashpad: The system cannot find the file specified. (0x2)
+[0808/152435.215:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
